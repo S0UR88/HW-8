@@ -1,0 +1,214 @@
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+ul,ol{
+    list-style:none;
+
+}
+
+
+.container{
+    width: 1170px;
+    margin:auto;
+
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.button{
+    font-weight:800;
+   font-size:14px;
+   color:chocolate;
+   padding: 19px 42px;
+   display: inline-block;
+   letter-spacing:2px;
+
+}
+
+.button:hover{
+    background-color:#cfc91d;
+    transition:0.3s;
+
+}
+
+/* ABOUT SECTION */
+.heading{
+    text-align:center;
+
+}
+
+.heading h2{
+    color: #02918c;
+    font-weight:800;
+    font-size:46px;
+}
+
+.heading p{
+    color:#7e8287;
+    font-size:16px;
+    padding:10px 0px;
+}
+
+/* ABOUT SECTION ENDS */
+
+
+/* NAV STARTS */
+nav{
+    background-color:#02918c;
+
+}
+
+nav .row{
+    align-items: center;
+
+}
+
+nav .logo{
+    width:30%;
+   
+}
+
+nav .menu{
+    width:70%;
+    text-align:right;
+
+}
+
+nav .menu li{
+    display:inline-block;
+
+}
+
+nav .menu li a{
+    font-weight:800;
+    font-size:12px;
+    color:#ffffff;
+    text-transform:uppercase;
+    padding:26px 25px;
+    display: block;
+
+}
+
+nav .menu li a:hover{
+    background-color:rgba(255, 255, 255, 0.534);
+    transition:0.3s ;
+
+}
+
+/* NAV ENDS */
+
+/* BANNER STARTS */
+#banner{
+    background-image:url(../Logo/MYFOLIO-Recovered.jpg);
+    height:728px;
+    background-size:cover;
+
+}
+
+#banner .row{
+    height:728px;
+    align-items:center;
+
+}
+
+.bannercontent{
+   width:100%;
+   text-align: center;
+   
+}
+
+.bannercontent h3{
+    color:#ffffff;
+    font-weight:400;
+    font-size:30px;
+
+}
+
+.bannercontent h1{
+    color:#ffffff;
+    font-weight:800;
+    font-size:68px;
+    text-transform:uppercase;
+    letter-spacing:20px;
+
+}
+
+.bannercontent p{
+    color:#ffffff;
+    font-weight:400;
+    font-size:18px;
+
+}
+
+.bannercontent img{
+    margin:50px 0px;
+
+}
+
+/* BANNER ENDS */
+
+/* ABOUT SECTION STARTS */
+#about{
+    padding: 98px 0px; 
+
+}
+
+.heading #loremipsum{
+    color:#7e8287;
+    font-size:16px;
+    
+}
+
+.heading #loremipsum span{
+    font-size:23px;
+    font-weight:800;
+
+}
+
+/* ABOUT SECTION ENDS */
+
+.row .aboutcard{
+    text-align:center;
+    padding:82px 0px;
+    width:24%;
+    
+
+}
+
+.row .aboutcard h3{
+    padding:15px 0px;
+    font-weight:800;
+    font-size:16px;
+    color:#7e8287;
+
+}
+
+.row .aboutcard p{
+    padding:15px 0px;
+    font-size:11px;
+    color:#7e8287;
+
+}
+
+.row hr{
+    margin:60px 0px;
+
+}
+
